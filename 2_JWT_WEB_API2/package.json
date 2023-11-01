@@ -1,0 +1,19 @@
+{
+  "name": "2_jwt_web_api2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "nodemon ./index localhost 3000"
+  },
+  "author": "Denis <denisdiogo18@hotmail.com> (http://www.horadecodar.com.br/)",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
